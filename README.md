@@ -1,6 +1,6 @@
 # utm: Website Real-Time Monitoring Tool
 
-Technology stack - 
+## Technology stack - 
 
     Java 8
     Spring Boot 2.3.4
@@ -8,16 +8,18 @@ Technology stack -
     Embedded H2 (in memory database)
     Embedded Tomcat server
     
-Tools -
+## Tools -
 
     Postman (used to test APIs)
     
     
 ## Getting started
 
-$ cd uptime-monitor
-$ docker-compose build
-$ docker-compose up
+    $ cd uptime-monitor
+
+    $ docker-compose build
+
+    $ docker-compose up
 
 
 ### Call the APIs
