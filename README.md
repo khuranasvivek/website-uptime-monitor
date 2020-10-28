@@ -1,6 +1,6 @@
 # utm: Website Real-Time Monitoring Tool
 
-## Technology stack - 
+## Technology stack
 
     Java 8
     Spring Boot 2.3.4
@@ -8,7 +8,7 @@
     Embedded H2 (in memory database)
     Embedded Tomcat server
     
-## Tools -
+## Tools
 
     Postman (used to test APIs)
     
@@ -22,14 +22,14 @@
     $ docker-compose up
 
 
-### Call the APIs
+## Call the APIs
 
-Postman or any other tool can be used to hit the APIs.
-By default, application will start at port 9090.
-All below requests will be prefixed with 'http://localhost:9090'
+    Postman or any other tool can be used to hit the APIs.
+    By default, application will start at port 9090.
+    All below requests will be prefixed with 'http://localhost:9090'
 
 
-#### POST /utm/webcheck/create
+### POST /utm/webcheck/create
 
 To create a webcheck for some website'
 
@@ -43,21 +43,21 @@ To create a webcheck for some website'
             "unit": "M"
         }
 
-#### GET /utm/webchecks
+### GET /utm/webchecks
 
 To get all the webchecks that application in monitoring.
 
     GET: http://localhost:9090/utm/webchecks
 
 
-#### GET /utm/webchecks/name/{nameSearchKey}
+### GET /utm/webchecks/name/{nameSearchKey}
 
 To search webchecks by name
 
     GET: http://localhost:9090/utm/webchecks/name/Google
 
 
-#### GET /utm/webchecks/interval/{frequency}/{unit}
+### GET /utm/webchecks/interval/{frequency}/{unit}
 
 To search webcheks by interval. 
 Unit can be M (for minute) or H (for hour) and frequency be accordingly, based of unit.
@@ -73,7 +73,7 @@ To check the status of particulas website
     GET: http://localhost:9090/utm/webcheck/status/http://google.com
     
 
-#### POST /utm/webcheck/{checkId}/activate/{value}
+### POST /utm/webcheck/{checkId}/activate/{value}
 
 To activate or deactivate particulas webcheck.
 Value should be true to activate particular check and to deactivate value should be false.
