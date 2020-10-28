@@ -38,6 +38,11 @@
 
 ![alt text](https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/monitor-table.png)
 
+
+## Architecture
+
+![alt text](https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/architecture.JPG)
+
 ## Call the APIs
 
     Postman or any other tool can be used to hit the APIs.
