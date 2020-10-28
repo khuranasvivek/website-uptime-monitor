@@ -35,6 +35,9 @@
         
 ![alt text](https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/webcheck-table.png)
 
+
+![alt text](https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/monitor-table.png)
+
 ## Call the APIs
 
     Postman or any other tool can be used to hit the APIs.
