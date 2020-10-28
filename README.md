@@ -20,7 +20,16 @@
     $ docker-compose build
 
     $ docker-compose up
-
+    
+## Database
+    
+    Once application is started, all monitoring statistics can be checked under -
+    
+    http://localhost:9090/utmdb
+    
+    You will see 2 tables -
+        WEB_CHECK - Shows all the websites that tool is monitoring
+        MONITOR - Shows stats for each website like, response time, status (down/up) etc.
 
 ## Call the APIs
 
