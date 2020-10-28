@@ -31,6 +31,9 @@
     
         WEB_CHECK - Shows all the websites that tool is monitoring
         MONITOR - Shows stats for each website like, response time, status (down/up) etc.
+        
+        
+        https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/webcheck-table.png
 
 ## Call the APIs
 
