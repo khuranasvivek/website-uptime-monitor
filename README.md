@@ -25,13 +25,15 @@
 ## Call the APIs
 
     Postman or any other tool can be used to hit the APIs.
+    
     By default, application will start at port 9090.
+    
     All below requests will be prefixed with 'http://localhost:9090'
 
 
 ### POST /utm/webcheck/create
 
-To create a webcheck for some website'
+To create a webcheck for any website, say google.com
 
     POST: http://localhost:9090/utm/webcheck/create
     
@@ -45,7 +47,7 @@ To create a webcheck for some website'
 
 ### GET /utm/webchecks
 
-To get all the webchecks that application in monitoring.
+To get all the webchecks that tool in monitoring
 
     GET: http://localhost:9090/utm/webchecks
 
