@@ -33,7 +33,7 @@
         MONITOR - Shows stats for each website like, response time, status (down/up) etc.
         
         
-        ![alt text](https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/webcheck-table.png)
+![alt text](https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/webcheck-table.png)
 
 ## Call the APIs
 
