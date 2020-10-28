@@ -78,7 +78,7 @@ Unit can be M (for minute) or H (for hour) and frequency be accordingly, based o
     GET: http://localhost:9090/utm/webchecks/interval/1/H  (All the checks running on 1 hour interval)
     
 
-#### GET /utm/webcheck/status/{url}
+### GET /utm/webcheck/status/{url}
 
 To check the status of particulas website
 
