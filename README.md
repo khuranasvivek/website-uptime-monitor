@@ -41,7 +41,7 @@
 
 ## Architecture
 
-![alt text](https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/architecture.JPG)
+![alt text](https://github.com/khuranasvivek/website-uptime-monitor/blob/master/src/main/resources/img/architecture.png)
 
 ## Call the APIs
 
