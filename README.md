@@ -28,6 +28,7 @@
     http://localhost:9090/utmdb
     
     You will see 2 tables -
+    
         WEB_CHECK - Shows all the websites that tool is monitoring
         MONITOR - Shows stats for each website like, response time, status (down/up) etc.
 
